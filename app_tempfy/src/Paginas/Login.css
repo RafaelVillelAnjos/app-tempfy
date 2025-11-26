@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../Fontes/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Jaro';
+    src: url(../Fontes/Jaro/Jaro-Regular-VariableFont_opsz.ttf);
+}
+
+.loginPage{
+    width: 400px;
+    max-width: none;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #7C9EBF; 
+    font-family: 'Poppins';
+    padding: 10px 5px;
+    text-align: center;
+    color: #fff;
+    background-image: url('../Imagens/Fundo-Login-Usuario.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.tituloLogin{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.tituloLogin p{
+    text-align: left;
+    margin-left: 0;
+    font-size: 15px;
+} 
+
+input{
+    width: 340px;
+    height: 50px;
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../Fontes/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Jaro';
+    src: url(../Fontes/Jaro/Jaro-Regular-VariableFont_opsz.ttf);
+}
+
+.body{
+    width: 400px;
+    max-width: none;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #7C9EBF;
+    font-family: 'Poppins';
+    padding: 10px 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.imgApresentacao{
+    border-radius: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    padding: 1px;
+    margin-bottom: 3%;
+}
+
+.imgApresentacao img{
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.507);
+    border-radius: 100%;
+    background-color: #e4f0f8;
+}
+
+.titulo{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.titulo .destaque{
+    color: #144B91;
+    font-family: "Jaro";
+    font-size: 55px;
+    text-decoration: underline 4px;
+    letter-spacing: 2px;
+}
+
+h1{
+    font-size: 37px;
+    line-height: 45px;
+}
+
+p{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+p .destaque{
+    color: #144B91;
+    font-family: "Jaro";}
+
+.btns button{
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: solid #144B91 3px;
+    background-color: #144B91;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 23px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.39);
+}
+
+.btns button:active{
+    transform: scale(1.03, 1.03);
+}
+
+.btns :last-child{
+    margin-top: 15px;
+}
