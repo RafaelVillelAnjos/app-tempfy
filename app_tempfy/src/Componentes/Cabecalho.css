@@ -1,0 +1,44 @@
+.cabecalho{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoTempfy{
+    width: 35px;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.logoTempfy img{
+    width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+
+.logoTempfy img:active{
+    transform: scale(1.1, 1.1);
+}
+
+.btnInfoUser{
+    width: 30px;       
+    height: auto;              
+    display: flex;     
+    align-items: center;
+    justify-content: center;
+    border: none;    
+    padding-right: 10px;          
+}
+
+.btnInfoUser svg{
+    width: 100% !important;     
+    height: auto !important;   
+    display: block;             
+    transition: 0.3s;
+    fill: #7C9EBF;              
+}
+
+.btnInfoUser svg:active{
+    transform: scale(1.1, 1.1);
+}

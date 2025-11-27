@@ -1,5 +1,7 @@
 import React from "react";
 import './Login.css';
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Login(){
     function LoginUsuario(){
@@ -17,10 +19,12 @@ function Login(){
                 <input type="text" id="email" placeholder="Email"/> <br />
                 <input type="password" id="senha" placeholder="Senha"/>
                 <br />
-                <a>Não possuo uma conta.</a>
+                <Link to='/Cadastro' className="linkCadastro">
+                    Não possuo uma conta
+                </Link>
             </div>
 
-            <button className="btnEntrar" onClick={LoginUsuario}>Entrar</button>
+            <button className="btnEntrar" onClick={LoginUsuario} id="btnLogarUser">Entrar</button>
         </div>
     )
 }

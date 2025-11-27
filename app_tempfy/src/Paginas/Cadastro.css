@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../Fontes/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Jaro';
+    src: url(../Fontes/Jaro/Jaro-Regular-VariableFont_opsz.ttf);
+}
+
+.tituloCadastro{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: #315483;
+}
+
+.tituloCadastro p{
+    text-align: left;
+    margin-left: 0;
+    font-size: 15px;
+    color: #315483;
+} 
+
+.telaCadastro{
+    width: 400px;
+    max-width: none;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #7C9EBF;
+    font-family: 'Poppins';
+    padding: 10px 5px;
+    text-align: center;
+    color: #fff;
+    background-image: url('../Imagens/Fundo-Cadastro-Usuario.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.inputsCadastro input{
+    width: 340px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.39);
+    margin-bottom: 20px;
+        color: #315483;
+}
+.inputsCadastro #confirmSenha{
+    margin-bottom: 0;
+}
+
+.inputsCadastro input:focus{
+    transform: scale(1.05, 1.05);
+    outline: none;
+}
+
+.inputsCadastro input::placeholder{
+    color: #315483;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.linkLogin{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 49%;
+    font-size: 13px;
+    color: #315483;
+}
+
+.btnCadastrarUser{
+    margin-top: 30%;
+    font-family: 'Poppins';
+    width: 280px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #7C9EBF;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+}
+
+.btnCadastrarUser:active{
+    transform: scale(1.05, 1.05);
+}
