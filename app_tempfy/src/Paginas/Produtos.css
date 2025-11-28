@@ -4,9 +4,62 @@
     min-height: 100vh;
     margin: 0 auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    background-color: #7C9EBF; 
+    background-color: #fff; 
     font-family: 'Poppins';
     padding: 10px 5px;
     text-align: center;
+    color: #000;
+    border: solid 1px;
+}
+
+.telaProdutos h1{
+    border-bottom: 3px solid #144B91; 
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5px;
+    font-size: 35px;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+.planoUm, .planoDois{
+    text-align: left;
+    border-radius: 20px;
+    width: 85%;
+    height: fit-content;
+    margin: auto;
+    background-color: #144B91;
+    margin-bottom: 10%;
+    box-shadow: 5px 7px 10px #00000046;
+    transition: 0.3s;
+}
+
+.planoUm:active, .planoDois:active{
+    transform: scale(1.05, 1.05);
+}
+
+.tituloPlanoUm, .tituloPlanoDois{
+    border-radius: 20px;
+    background-color: #FFEFEF;
+    color: #000;
+    border: solid 2px #e0dfdf;
+    padding: 5px 15px;
+}
+
+.tituloPlanoUm p, .tituloPlanoDois p{
+    margin: 0;
+    width: 100%;
+}
+
+.descPlanoUm, .descPlanoDois{
+    background-color: #144B91;
+    border-radius: 20px;
+    padding: 10px 15px;
     color: #fff;
+}
+
+.descPlanoUm p, .descPlanoDois p{
+    margin: 0;
+    width: 100%;
 }

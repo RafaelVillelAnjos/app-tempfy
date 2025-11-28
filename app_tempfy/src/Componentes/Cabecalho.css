@@ -3,12 +3,13 @@
     height: 50px;
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
 }
 
 .logoTempfy{
-    width: 35px;
+    width: 40px;
     height: 100%;
-    padding-left: 10px;
+    padding-left: 9px;
 }
 
 .logoTempfy img{
@@ -17,18 +18,14 @@
     transition: 0.3s;
 }
 
-.logoTempfy img:active{
-    transform: scale(1.1, 1.1);
-}
-
 .btnInfoUser{
-    width: 30px;       
+    width: 36px;       
     height: auto;              
     display: flex;     
     align-items: center;
     justify-content: center;
     border: none;    
-    padding-right: 10px;          
+    padding-right: 12px;          
 }
 
 .btnInfoUser svg{
@@ -36,9 +33,9 @@
     height: auto !important;   
     display: block;             
     transition: 0.3s;
-    fill: #7C9EBF;              
+    fill: #144B91;              
 }
 
-.btnInfoUser svg:active{
-    transform: scale(1.1, 1.1);
+.btnInfoUser svg:active, .logoTempfy img:active{
+    transform: scale(1.2, 1.2);
 }

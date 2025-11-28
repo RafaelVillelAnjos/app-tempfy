@@ -26,7 +26,7 @@ function Apresentacao(){
                     <h1>Bem vindo à <a className="destaque">Tempfy</a></h1> 
                 </div>
 
-                <p>Neste aplicativo você poderá controlar seus aparelhos <a className="destaque">Temp-Monitors.</a> <br />
+                <p>Neste aplicativo você poderá controlar seus aparelhos <a className="destaque">Temp Monitors.</a> <br />
                 Para começar, clique em <a className="destaque">“Login”</a> caso já possua uma conta ou em <a className="destaque">“Cadastrar”</a> para criar uma.</p>
             </div>
 
